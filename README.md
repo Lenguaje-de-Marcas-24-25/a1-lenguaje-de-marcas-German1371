@@ -64,6 +64,7 @@ Un lenguaje de marcas (o lenguaje de marcado) es un sistema para etiquetar o "ma
 </body>
 </html>
 ```
+Crea una pagina web con un titulo que dice bienvenido
 - iCalendar
 
 ```
@@ -84,7 +85,7 @@ ATTENDEE;CN=Maria Lopez;RSVP=TRUE:mailto:maria.lopez@example.com
 END:VEVENT
 END:VCALENDAR
 ```
-
+Este código iCalendar crea un evento programado (una reunión de trabajo) con detalles sobre la fecha, hora, ubicación, descripción, y la información de contacto del organizador y un asistente.
 - vCard 
 
 ```
@@ -101,6 +102,7 @@ ADR;WORK:;;Calle Falsa 123;Madrid;;28080;España
 URL:http://www.ejemplo.com
 END:VCARD
 ```
+Este código vCard crea una tarjeta de contacto para Juan Pérez, con información detallada sobre su nombre, puesto, organización, números de teléfono, correo electrónico, dirección y sitio web. Este formato es ampliamente utilizado para facilitar el intercambio de información de contacto, permitiendo a los usuarios importar fácilmente esta información a sus aplicaciones de contactos.
 - KML
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -114,6 +116,7 @@ END:VCARD
   </Placemark>
 </kml>
 ```
+este archivo KML define un marcador en un mapa que representa la "Oficina Central" de la empresa "Ejemplo S.A.". Proporciona tanto un nombre como una descripción para el lugar y lo ubica en el mapa usando coordenadas geográficas. Este tipo de archivo puede ser utilizado en aplicaciones de mapas como Google Earth, permitiendo a los usuarios visualizar la ubicación de la oficina en un entorno geoespacial.
 - RSS
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -143,3 +146,4 @@ END:VCARD
   </channel>
 </rss>
 ```
+Este archivo RSS contiene un canal de noticias para la empresa "Ejemplo S.A." con dos entradas de noticias. Cada entrada incluye un título, un enlace a la noticia completa, una descripción, la fecha de publicación y un identificador único. Este formato permite que los lectores de RSS y otros agregadores de noticias puedan mostrar automáticamente las actualizaciones de contenido de este canal a los usuarios, facilitando el acceso a la información más reciente.
